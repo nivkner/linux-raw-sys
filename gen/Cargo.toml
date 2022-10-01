@@ -6,4 +6,5 @@ publish = false
 
 [dependencies]
 bindgen = { version = "=0.59.2", default-features = false, features = ["which-rustfmt"] }
+# something that shouldn't generate a commit
 tempdir = "0.3.7"
